@@ -1,8 +1,8 @@
 /*
-* Manchester Digital Session 3
-* Operators in Java
-* Conditionals & Loops
-*/
+ * Manchester Digital Session 3
+ * Operators in Java
+ * Conditionals & Loops
+ */
 
 package org.mdigital;
 
@@ -99,5 +99,20 @@ public class Main {
         cod here
         }
          */
+
+        int day = 2;
+
+        if (day <= 5) {
+            System.out.println("### Weekday ###");
+            if ((day == 2) || (day == 4)) {
+                System.out.println("Gym");
+            }
+        } else {
+            System.out.println("### Weekend ###");
+            if (day == 7) {
+                System.out.println("Gardening");
+            }
+        }
+
     }
 }
