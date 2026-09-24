@@ -1,6 +1,7 @@
 /*
 * Manchester Digital Session 3
 * Operators in Java
+* Conditionals & Loops
 */
 
 package org.mdigital;
@@ -60,10 +61,43 @@ public class Main {
 
         /*
         Logical Operators
-        && = AND
-        || = OR
-        ! = NOT
+        && = AND (both true)
+        || = OR (one must be true)
+        ! = NOT (not true)
          */
 
+        /*
+        Advanced Operators
+        ?: = shorter if else statement (Ternary Operators)
+        (condition) ? (true outcome) : (false outcome)
+         */
+
+        int speed = 900;
+        String message = (speed >= 120) ? "Too fast" : "You good";
+        System.out.println(message);
+
+        /*
+        Conditionals
+        IF:
+        if (condition) {
+        code here
+        }
+
+        IF/ELSE:
+        if (condition) {
+        code here
+        } else {
+        code here
+        }
+
+        IF/ELSE IF/ELSE:
+        if (condition) {
+        code here
+        } else if (condition) {
+        code here
+        } else {
+        cod here
+        }
+         */
     }
 }
